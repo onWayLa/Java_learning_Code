@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ef5afe2-a713-45df-88d0-61311ff3159e" name="Default" comment="second commit">
-      <change afterPath="$PROJECT_DIR$/src/checkBox/CheckBoxFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/checkBox/CheckBoxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/draw/DrawTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/innerClass/InnerClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/radioButton/RadioButtonFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/radioButton/RadioButtonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/simpleframe/SimpleFrameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sizedFrame/SizedFrameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/text/TextComponentFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/text/TextComponentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test/snmp_test/SNMPv2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test/snmp_test/SNMPv2Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/snmp_test/SNMPv2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/snmp_test/SNMPv2Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="4ef5afe2-a713-45df-88d0-61311ff3159e" name="Default" comment="second commit" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +171,7 @@
       <workItem from="1597229433348" duration="941000" />
       <workItem from="1597918814196" duration="25839000" />
       <workItem from="1598871524853" duration="32283000" />
-      <workItem from="1599145014492" duration="1507000" />
+      <workItem from="1599145014492" duration="1728000" />
     </task>
     <task id="LOCAL-00001" summary="init commit java code">
       <created>1599132219197</created>
@@ -195,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599132219198</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1599146674572</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599146674572</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
