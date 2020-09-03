@@ -82,10 +82,10 @@ public class SNMPv2Test {
             System.out.println("Timeout....");
         }else {
             if (response.getErrorStatus() == PDU.noError){
-                Vector<? extends VariableBinding> vbs = response.getVariableBindings();
-                for (VariableBinding vb : vbs){
-                    System.out.println(vb + ", " + vb.getVariable().getSyntaxString());
-                }
+//                Vector<? extends VariableBinding> vbs = response.getVariableBindings();
+//                for (VariableBinding vb : vbs){
+//                    System.out.println(vb + ", " + vb.getVariable().getSyntaxString());
+//                }
                 }
                 else {
                 System.out.println("Error:" + response.getErrorStatusText());
