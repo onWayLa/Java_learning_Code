@@ -77,11 +77,11 @@ public class MenuFrame extends JFrame {
 
         // demonstrate icons
         Action cutAction = new TestAction("Cut");
-        cutAction.putValue(Action.SMALL_ICON, new ImageIcon("cut.gif"));
+        cutAction.putValue(Action.SMALL_ICON, new ImageIcon("src//menu//cut.gif"));
         Action copyAction = new TestAction("Copy");
-        copyAction.putValue(Action.SMALL_ICON, new ImageIcon("copy.gif"));
+        copyAction.putValue(Action.SMALL_ICON, new ImageIcon("src//menu//copy.gif"));
         Action pasteAction = new TestAction("Paste");
-        pasteAction.putValue(Action.SMALL_ICON, new ImageIcon("paste.gif"));
+        pasteAction.putValue(Action.SMALL_ICON, new ImageIcon("src//menu//paste.gif"));
 
         JMenu editMenu = new JMenu("Edit");
         editMenu.add(cutAction);
