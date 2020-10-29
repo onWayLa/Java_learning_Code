@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef5afe2-a713-45df-88d0-61311ff3159e" name="Default" comment="dialog example with bug unsolved!">
-      <change afterPath="$PROJECT_DIR$/src/dataExchange/DataExchangeFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataExchange/PasswordChooser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataExchange/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dialog/AboutDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dialog/DialogFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileChooser/FileIconView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileChooser/ImagePreviewer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fileChooser/ImageViewerFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/colorChooser/ColorChooserPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/ResourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/about.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +45,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resource" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,6 +59,9 @@
     <property name="settings.editor.selected.configurable" value="ics" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resource" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\05 Project Code\Java_Code\Java_learning_Code\src\menu" />
       <recent name="D:\05 Project Code\Java_Code\Java_learning_Code" />
@@ -83,13 +82,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ImageViewerFrame">
-    <configuration name="ButtonFrameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="button.ButtonFrameTest" />
+  <component name="RunManager" selected="Application.ResourceTest">
+    <configuration name="ColorChooserPanel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="colorChooser.ColorChooserPanel" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="button.*" />
+          <option name="PATTERN" value="colorChooser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextComponentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="text.TextComponentTest" />
+    <configuration name="ResourceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="resource.ResourceTest" />
       <module name="Test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="text.*" />
+          <option name="PATTERN" value="resource.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,19 +149,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TextComponentTest" />
-      <item itemvalue="Application.ButtonFrameTest" />
       <item itemvalue="Application.DialogFrame" />
       <item itemvalue="Application.DataExchangeFrame" />
       <item itemvalue="Application.ImageViewerFrame" />
+      <item itemvalue="Application.ColorChooserPanel" />
+      <item itemvalue="Application.ResourceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ResourceTest" />
+        <item itemvalue="Application.ColorChooserPanel" />
         <item itemvalue="Application.ImageViewerFrame" />
         <item itemvalue="Application.DataExchangeFrame" />
         <item itemvalue="Application.DialogFrame" />
-        <item itemvalue="Application.ButtonFrameTest" />
-        <item itemvalue="Application.TextComponentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +204,9 @@
       <workItem from="1601303953508" duration="564000" />
       <workItem from="1602683526108" duration="2942000" />
       <workItem from="1603030442863" duration="5990000" />
-      <workItem from="1603288595431" duration="4985000" />
+      <workItem from="1603288595431" duration="5025000" />
+      <workItem from="1603377247553" duration="3744000" />
+      <workItem from="1603896735000" duration="2425000" />
     </task>
     <task id="LOCAL-00001" summary="init commit java code">
       <created>1599132219197</created>
@@ -228,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599578437622</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dialog example with bug unsolved!">
+      <created>1603294806501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603294806501</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +273,11 @@
           <url>file://$PROJECT_DIR$/src/mouse/MouseComponent.java</url>
           <line>59</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/resource/ResourceTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
